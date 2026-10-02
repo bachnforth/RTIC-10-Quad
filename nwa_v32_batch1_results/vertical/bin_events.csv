@@ -1,0 +1,9 @@
+utc,boot_s,record_type,detail
+2026-09-20T00:34:38.013Z,43.176889,ARM,armed=1 method=1 forced=0
+2026-09-20T00:34:38.013Z,43.176889,MODE,mode=4 reason=2
+2026-09-20T00:34:52.867Z,58.030945,MSG,NWA: Scripting1 entry switch HIGH
+2026-09-20T00:34:52.867Z,58.030945,MSG,"NWA: position 35.0495415,-79.4901810"
+2026-09-20T00:34:52.867Z,58.030945,MSG,NWA: candidate 4->5 xtrack 0.3m t=0.25 rem 167.2m
+2026-09-20T00:34:52.867Z,58.030945,MSG,NWA: reject persistent vertical speed type 2 seq 3
+2026-09-20T00:34:55.664Z,60.827326,MODE,mode=5 reason=2
+2026-09-20T00:34:56.178Z,61.342120,ARM,armed=0 method=1 forced=1

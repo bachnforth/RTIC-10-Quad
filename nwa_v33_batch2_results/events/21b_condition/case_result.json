@@ -1,0 +1,122 @@
+{
+  "case": "21b_condition",
+  "parameters": {
+    "ARMING_SKIPCHK": 65535,
+    "SCR_ENABLE": 1,
+    "RC7_OPTION": 300,
+    "WP_SPD": 6,
+    "NWA_DEBUG": 1,
+    "NWA_START": 2,
+    "NWA_END": 4,
+    "NWA_MINREM": 30,
+    "NWA_MAXDIST": 100,
+    "NWA_MINLEG": 2,
+    "NWA_AMBIG": 1,
+    "NWA_ENABLE": 1,
+    "NWA_ONCE": 0,
+    "MIS_RESTART": 0
+  },
+  "mission": [
+    [
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      0,
+      35.0495415,
+      -79.490181,
+      100.44,
+      1
+    ],
+    [
+      1,
+      3,
+      22,
+      0,
+      0,
+      0,
+      0,
+      35.0495415,
+      -79.490181,
+      20,
+      0
+    ],
+    [
+      2,
+      3,
+      16,
+      0,
+      0,
+      0,
+      0,
+      35.04864318471588,
+      -79.490181,
+      20,
+      0
+    ],
+    [
+      3,
+      2,
+      112,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      3,
+      16,
+      0,
+      0,
+      0,
+      0,
+      35.050439815284115,
+      -79.490181,
+      20,
+      0
+    ],
+    [
+      5,
+      2,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "action": "reject",
+  "expected": {},
+  "verdict": "PASS",
+  "start_mode": 4,
+  "start_index": 1,
+  "aircraft_position": {
+    "lat": 35.0495397,
+    "lon": -79.4901845,
+    "rel_alt_m": 19.999
+  },
+  "nwa_statustext": [
+    "NWA: Scripting1 entry switch HIGH",
+    "NWA: position 35.0495415,-79.4901810",
+    "NWA: reject unsupported mission cmd 112 at seq 3"
+  ],
+  "staged_count": 0,
+  "speed_setter_count": 0,
+  "completion_count": 0,
+  "auto_transition_count": 0,
+  "mission_transitions": [],
+  "mode_transitions": [],
+  "final_mode": 4,
+  "final_index": 1
+}

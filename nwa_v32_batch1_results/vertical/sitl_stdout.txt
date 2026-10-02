@@ -1,0 +1,16 @@
+Setting SIM_SPEEDUP=1.000000
+Suggested EK3_DRAG_BCOEF_* = 17.209, EK3_DRAG_MCOEF = 0.209
+Home: 35.049540 -79.490184 alt=100.440000m hdg=0.000000
+Starting sketch 'ArduCopter'
+Starting SITL input
+Using Irlock at port : 9005
+Loaded defaults from C:\Users\ebach\Documents\Mission Planner\sitl\default_params\copter.parm
+Loaded defaults from C:\Users\ebach\Documents\Mission Planner\sitl\default_params\copter.parm
+Smoothing reset at 0.001
+Loaded defaults from C:\Users\ebach\Documents\Mission Planner\sitl\default_params\copter.parm
+Loaded defaults from C:\Users\ebach\Documents\Mission Planner\sitl\default_params\copter.parm
+Loaded defaults from C:\Users\ebach\Documents\Mission Planner\sitl\default_params\copter.parm
+Loaded defaults from C:\Users\ebach\Documents\Mission Planner\sitl\default_params\copter.parm
+Loaded defaults from C:\Users\ebach\Documents\Mission Planner\sitl\default_params\copter.parm
+Loaded defaults from C:\Users\ebach\Documents\Mission Planner\sitl\default_params\copter.parm
+New connection on SERIAL1

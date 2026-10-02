@@ -1,0 +1,242 @@
+    0.05  SITL started (wipe=True) pid 6276
+    0.20    ESP32> FAULT 5: ARM PWM INVALID/LOST
+    1.16  instrument connected
+    1.16  filter started pid 31460
+    1.16  === T1 boot defaults ===
+    2.06    LUX> [6] Barometer 1 calibration complete
+    2.06    LUX> [6] Barometer 2 calibration complete
+    2.58    LUX> [6] ArduPilot Ready
+    2.58    LUX> [6] AHRS: DCM active
+    2.59    LUX> [6] Safety arbiter running, ARM request cleared
+    2.88    LUX> [6] RC7: SaveWaypoint LOW
+    3.67    LUX> [6] Safety FAULT ARM PWM INVALID/LOST
+    4.58    LUX> [6] EKF3 IMU0 initialised
+    4.58    LUX> [6] EKF3 IMU1 initialised
+    4.58    LUX> [6] AHRS: EKF3 active
+    5.92    LUX> [6] EKF3 IMU1 tilt alignment complete
+    5.92    LUX> [6] EKF3 IMU0 tilt alignment complete
+    6.03    LUX> [6] EKF3 IMU1 MAG0 initial yaw alignment complete
+    6.03    LUX> [6] EKF3 IMU0 MAG0 initial yaw alignment complete
+    6.20  PASS  T1 arbiter running and publishing status  {'SD_STATE': 3.0, 'SD_CD': 0.0, 'SD_REQ': 0.0, 'SD_TXOK': 1.0}
+    6.20  PASS  T1 ARM request cleared at boot  SD_REQ=0.0
+    6.20  PASS  T1 S1 released after status seen (ESP32 not ARMED)  S1=1100
+    6.20  PASS  T1 S2 released  S2=1100
+    6.20  PASS  T1 ESP32 not armed after boot  state=FAULT reason=ARM PWM INVALID/LOST
+    6.28    QGC< ACK cmd 31010 result 0 action 0
+    7.89    ESP32> fault cleared -> SAFE
+    8.12    LUX> [6] Safety SAFE
+    8.69  PASS  T1 fault cleared by SW1 cycle -> SAFE  SAFE
+    8.69  === T2 SB-only, full standoff ===
+    8.95    LUX> [6] Safety ARM request SET (SB up)
+    9.45    ESP32> ARM accepted -> standoff running
+    9.94    LUX> [6] GPS 1: probing for u-blox at 230400 baud
+    9.95    LUX> [6] GPS 1: detected u-blox
+   10.12    LUX> [6] Safety standoff 31
+   20.16    LUX> [6] EKF3 IMU1 origin set
+   20.19    LUX> [6] Field Elevation Set: 100m
+   20.34    LUX> [6] EKF3 IMU0 origin set
+   40.45    ESP32> standoff complete -> ARMED
+   40.47  PASS  T2 SB up asserts S1 within 0.5 s  266 ms
+   40.47  PASS  T2 ARMED via SB  
+   40.47  PASS  T2 standoff 31.5 s (+-0.3)  31516 ms S1->ARMED
+   40.47  PASS  T2 Fly View panel: status 1 (STANDOFF), runtime counting 31..1  runtime [31, 30, 29]..[3, 2, 1] (31 distinct)
+   40.47  FAIL  T2 Fly View panel: status 2 (ARMED), runtime 0  None
+   40.47  PASS  T2 no spoken (NOTICE or higher) Safety messages  []
+   40.69    LUX> [6] Safety ARM request CLEARED (SB down)
+   40.69    ESP32> ARM released -> SAFE
+   40.69  PASS  T2 SB down -> SAFE  SAFE
+   40.69  === T3 app-only ===
+   40.75    LUX> [6] Safety command denied: CONFIRM without REQUEST
+   40.75    QGC< ACK cmd 31010 result 2 action 2
+   40.77  PASS  T3 CONFIRM without REQUEST denied  ACK=2
+   40.81    LUX> [6] Safety ARM requested, tap CONFIRM
+   40.81    QGC< ACK cmd 31010 result 0 action 1
+   41.08    LUX> [6] Safety SAFE
+   41.53    LUX> [6] EKF3 IMU0 is using GPS
+   41.77    LUX> [6] EKF3 IMU1 is using GPS
+   50.88    LUX> [6] Safety ARM request expired
+   51.36    LUX> [6] Safety command denied: CONFIRM without REQUEST
+   51.36    QGC< ACK cmd 31010 result 2 action 2
+   51.38  PASS  T3 CONFIRM after 10 s window denied  ACKs=0,2
+   51.38  PASS  T3 no arm from expired request  
+   51.42    LUX> [6] Safety ARM requested, tap CONFIRM
+   51.42    QGC< ACK cmd 31010 result 0 action 1
+   51.48    LUX> [6] Safety ARM request SET (app ARM)
+   51.48    QGC< ACK cmd 31010 result 0 action 2
+   51.98    ESP32> ARM accepted -> standoff running
+   52.11    LUX> [6] Safety standoff 31
+   82.98    ESP32> standoff complete -> ARMED
+   82.98  PASS  T3 app REQUEST+CONFIRM asserts S1  125 ms
+   82.98  PASS  T3 ARMED via app  
+   82.98  PASS  T3 standoff 31.5 s (+-0.3)  31484 ms
+   83.12    LUX> [6] Safety ARMED
+   83.61  PASS  T3 QGC sees ESP32 ARMED (SD_STATE=2)  SD_STATE=2.0
+   83.66    LUX> [6] Safety ARM request CLEARED (app DISARM)
+   83.66    ESP32> ARM released -> SAFE
+   83.66    QGC< ACK cmd 31010 result 0 action 0
+   83.66  PASS  T3/T6 app DISARM while ARMED -> SAFE  ACK=0 SAFE
+   84.09    LUX> [6] Safety SAFE
+   84.22  PASS  T3 QGC sees SAFE (SD_STATE=0)  
+   84.22  === rejections ===
+   87.23  PASS  R1 wrong key blocked by Pi filter (no ACK)  ACK=None
+   87.30    LUX> [6] Safety command denied: malformed
+   87.77    LUX> [6] Safety command denied: malformed
+   88.23  PASS  R2 wrong key reaching LUX directly denied  [(10263656, 6, 'Safety command denied: malformed'), (10264125, 6, 'Safety command denied: malformed')]
+   88.31    LUX> [6] Safety command denied: unknown action
+   88.31    LUX> [6] Safety command denied: unknown action
+   89.30    QGC< ACK cmd 31010 result 0 action 0
+   89.31  PASS  R2b NaN/huge action does not stop the arbiter  ACK after=0 stopped=False
+   89.36    LUX> [6] Safety command denied: wrong sender/target
+   89.36    QGC< ACK cmd 31010 result 2 action 1
+   89.38  PASS  R3 wrong sender system ID denied  ACK=2
+   89.38  PASS  R1-3 nothing asserted  
+   91.36  PASS  R4 QGC vehicle Arm and DO_SET_SERVO blocked by filter  blocked={'COMMAND_LONG': 3} leaked_acks=[]
+   91.36  === T4 conflicting commands ===
+   91.58    LUX> [6] Safety ARM request SET (SB up)
+   92.08    ESP32> ARM accepted -> standoff running
+   92.17    LUX> [6] Safety ARM request CLEARED (app DISARM)
+   92.17    QGC< ACK cmd 31010 result 0 action 0
+   92.17    ESP32> ARM released -> SAFE
+   92.17  PASS  T4 app DISARM overrides SB held up  S1=1100 SAFE
+   95.17  PASS  T4 stays disarmed while SB remains up  
+   95.94    LUX> [6] Safety ARM request SET (SB up)
+   96.45    ESP32> ARM accepted -> standoff running
+   96.45  PASS  T4 SB cycle down/up re-arms  STANDOFF
+   96.73    LUX> [6] Safety ARM request CLEARED (SB down)
+   96.73    ESP32> ARM released -> SAFE
+   96.80    LUX> [6] Safety ARM requested, tap CONFIRM
+   96.80    QGC< ACK cmd 31010 result 0 action 1
+   96.86    LUX> [6] Safety ARM request SET (app ARM)
+   96.86    QGC< ACK cmd 31010 result 0 action 2
+   97.36    ESP32> ARM accepted -> standoff running
+   98.11    LUX> [6] Safety standoff 31
+   98.11    LUX> [6] Safety ARM request CLEARED (SB down)
+   98.11    ESP32> ARM released -> SAFE
+   98.12  PASS  T4 SB down clears an app ARM (last command wins)  SAFE
+   98.12  === T7 transmitter loss ===
+   98.36    LUX> [6] Safety ARM request SET (SB up)
+   98.88    ESP32> ARM accepted -> standoff running
+  102.88    LUX> [4] Radio Failsafe - Disarming
+  102.92    LUX> [6] Transmitter link lost
+  102.94  PASS  T7 transmitter loss detected  
+  102.94  PASS  T7 S1 stays asserted, S2 released during loss  S1,S2=(1900, 1100)
+  104.59    LUX> [2] PreArm: Radio failsafe on
+  129.88    ESP32> standoff complete -> ARMED
+  129.88  PASS  T7 standoff completes to ARMED without transmitter  30984 ms after S1 assert
+  129.98    ESP32> LOAD ON
+  130.00  PASS  T7 deflection contact fires while TX lost  
+  130.00    ESP32> LOAD OFF
+  130.02  PASS  T7 load off after contact opens  
+  130.09    LUX> [6] Safety ARMED
+  130.09    LUX> [6] Safety load fired (1)
+  130.09    LUX> [6] Safety ARM request CLEARED (app DISARM)
+  130.09    QGC< ACK cmd 31010 result 0 action 0
+  130.11    ESP32> ARM released -> SAFE
+  130.12  PASS  T7 app DISARM with TX lost -> SAFE  
+  130.16    LUX> [6] Safety ARM requested, tap CONFIRM
+  130.16    QGC< ACK cmd 31010 result 0 action 1
+  130.20    LUX> [6] Safety ARM request SET (app ARM)
+  130.20    QGC< ACK cmd 31010 result 0 action 2
+  130.72    ESP32> ARM accepted -> standoff running
+  130.73  PASS  T7 app ARM with TX lost starts standoff (no Code 5)  STANDOFF
+  131.09    LUX> [6] Safety standoff 31
+  135.62    LUX> [2] PreArm: Radio failsafe on
+  161.72    ESP32> standoff complete -> ARMED
+  161.73  PASS  T7 app ARM with TX lost reaches ARMED  
+  161.75    LUX> [4] Radio Failsafe Cleared
+  161.78    LUX> [6] Transmitter link restored
+  162.11    LUX> [6] Safety ARMED
+  163.86  PASS  T7 TX return with SE held: S2 stays released, no fire  S2=1100 load=False
+  164.45    ESP32> LOAD ON
+  164.45  PASS  T7 fresh SE press after return fires  
+  164.45  PASS  T7 app ARM survives TX return with SB up (no edge)  
+  164.48    ESP32> LOAD OFF
+  164.59    LUX> [6] Safety ARM request CLEARED (SB down)
+  164.61    ESP32> ARM released -> SAFE
+  164.61  PASS  T7 SB down disarms after return  SAFE
+  164.61  === T8 app link loss ===
+  164.66    LUX> [6] Safety ARM requested, tap CONFIRM
+  164.66    QGC< ACK cmd 31010 result 0 action 1
+  164.70    LUX> [6] Safety ARM request SET (app ARM)
+  164.70    QGC< ACK cmd 31010 result 0 action 2
+  165.08    LUX> [6] Safety SAFE
+  165.08    LUX> [6] Safety load fired (2)
+  165.20    ESP32> ARM accepted -> standoff running
+  166.11    LUX> [6] Safety standoff 31
+  168.20  filter stopped (app link lost)
+  196.20    ESP32> standoff complete -> ARMED
+  196.22  PASS  T8 standoff completes to ARMED with app link down  31016 ms
+  197.14    LUX> [6] Safety ARMED
+  199.22  PASS  T8 stays ARMED with app link down  
+  199.22  filter started pid 32352
+  202.30    LUX> [6] Safety ARM request CLEARED (app DISARM)
+  202.30    ESP32> ARM released -> SAFE
+  202.30    QGC< ACK cmd 31010 result 0 action 0
+  202.30  PASS  T8 DISARM after link restored  
+  202.30  === T10 FIRE before ARMED ===
+  202.34    ESP32> FAULT 3: FIRE WHILE SAFE
+  202.34  PASS  T10 SE in SAFE -> Code 3, no load  FIRE WHILE SAFE
+  203.12    LUX> [6] Safety FAULT FIRE WHILE SAFE
+  203.23  PASS  T10 Fly View panel shows 33 (FAULT code 3)  (10379593, 33, 0)
+  203.86    ESP32> fault cleared -> SAFE
+  203.86  PASS  T10 Code 3 clears after released inputs  SAFE
+  204.06    LUX> [6] Safety SAFE
+  204.06    LUX> [6] Safety ARM request SET (SB up)
+  204.56    ESP32> ARM accepted -> standoff running
+  204.66    ESP32> FAULT 3: FIRE DURING STANDOFF
+  204.66  PASS  T10 SE during standoff -> Code 3, no load  FIRE DURING STANDOFF
+  204.88    LUX> [6] Safety ARM request CLEARED (SB down)
+  204.88    ESP32> fault cleared -> SAFE
+  204.89  PASS  T10 recovered by SB down  SAFE
+  204.89    ESP32> FAULT 3: CONTACT BEFORE ARMED
+  204.91  PASS  T10 contact in SAFE -> Code 3, no load  
+  204.94    QGC< ACK cmd 31010 result 0 action 0
+  205.08    LUX> [6] Safety FAULT CONTACT BEFORE ARMED
+  205.41    ESP32> fault cleared -> SAFE
+  206.09    LUX> [6] Safety SAFE
+  206.45  === T9 LUX reboot while ARMED (Option A) ===
+  206.52    LUX> [6] Safety ARM requested, tap CONFIRM
+  206.52    QGC< ACK cmd 31010 result 0 action 1
+  206.59    LUX> [6] Safety ARM request SET (app ARM)
+  206.59    QGC< ACK cmd 31010 result 0 action 2
+  207.09    ESP32> ARM accepted -> standoff running
+  208.11    LUX> [6] Safety standoff 31
+  238.09    ESP32> standoff complete -> ARMED
+  238.11  PASS  T9 ARMED before reboot  
+  238.11  filter stopped (app link lost)
+  238.11  SITL killed (simulated LUX power loss)
+  240.11  PASS  T9 ESP32 holds ARMED with no pulses  state=ARMED hold=True
+  240.66    ESP32> LOAD ON
+  240.66  PASS  T9 contact fires during LUX outage  
+  240.66    ESP32> LOAD OFF
+  240.67  SITL started (wipe=False) pid 21820
+  241.70  instrument connected
+  241.70  filter started pid 11992
+  242.62    LUX> [6] Barometer 1 calibration complete
+  242.62    LUX> [6] Barometer 2 calibration complete
+  243.16    LUX> [6] ArduPilot Ready
+  243.16    LUX> [6] AHRS: DCM active
+  243.19    LUX> [6] Safety arbiter running, ARM request cleared
+  243.44    LUX> [6] RC7: SaveWaypoint LOW
+  244.28    LUX> [6] Safety ARMED
+  244.28    LUX> [6] Safety ARMED at LUX boot, holding
+  244.78  PASS  T9 after reboot S1 held (boot hold) because ESP32 reports ARMED  SD_REQ=2.0 S1=1500
+  245.14    LUX> [6] EKF3 IMU0 initialised
+  245.14    LUX> [6] EKF3 IMU1 initialised
+  245.14    LUX> [6] AHRS: EKF3 active
+  246.50    LUX> [6] EKF3 IMU0 tilt alignment complete
+  246.50    LUX> [6] EKF3 IMU1 tilt alignment complete
+  246.59    LUX> [6] EKF3 IMU0 MAG0 initial yaw alignment complete
+  246.59    LUX> [6] EKF3 IMU1 MAG0 initial yaw alignment complete
+  247.78  PASS  T9 ESP32 still ARMED after LUX reboot  state=ARMED S1=1500
+  247.81    QGC< ACK cmd 31010 result 0 action 0
+  247.81    ESP32> ARM released -> SAFE
+  247.81  PASS  T9 app DISARM after reboot -> SAFE  ACK=0 SAFE
+  248.12    LUX> [6] Safety SAFE
+  250.52    LUX> [6] GPS 1: probing for u-blox at 230400 baud
+  250.52    LUX> [6] GPS 1: detected u-blox
+  250.81  PASS  T9 SB up since boot (never seen released) does not arm  S1=1100 SAFE
+  250.81  PASS  T9 fire count = only the deliberate contact test  3
+  250.81  === 60/61 checks passed ===
+  250.81  filter stopped (app link lost)
+  250.83  SITL killed (simulated LUX power loss)

@@ -1,0 +1,131 @@
+{
+  "fallback": {
+    "target_speed": 6.0,
+    "tolerance": 0.3,
+    "apply_time": 57.940148,
+    "nav_start": 57.941814,
+    "nav_end": 89.041869,
+    "nav_duration_after_apply": 31.101721000000005,
+    "apply_before_nav_start_ms": 1.6660000000001673,
+    "next_do_time": 89.041869,
+    "next_nav_time": 89.041869,
+    "peak_hvel": 6.005586785158569,
+    "first_in_target_band": {
+      "boot_s": 64.339254,
+      "vn": 5.7049078941345215,
+      "ve": 0.010864155367016792,
+      "hvel": 5.704918238715628
+    },
+    "last_in_target_band": {
+      "boot_s": 89.03937,
+      "vn": 5.927685737609863,
+      "ve": -0.48664596676826477,
+      "hvel": 5.9476283089005495
+    },
+    "settled": {
+      "boot_s": 64.339254,
+      "vn": 5.7049078941345215,
+      "ve": 0.010864155367016792,
+      "hvel": 5.704918238715628
+    },
+    "settled_mean": 5.954076700672238,
+    "settled_min": 5.704918238715628,
+    "settled_max": 6.005586785158569,
+    "time_remaining_at_settle": 24.70261500000001,
+    "distance_remaining_at_settle": 147.5319744601392
+  },
+  "persistent": {
+    "target_speed": 5.0,
+    "tolerance": 0.25,
+    "apply_time": 58.000124,
+    "nav_start": 58.00179,
+    "nav_end": 89.081853,
+    "nav_duration_after_apply": 31.081728999999996,
+    "apply_before_nav_start_ms": 1.6660000000001673,
+    "next_do_time": 89.081853,
+    "next_nav_time": 89.081853,
+    "peak_hvel": 6.005845895566602,
+    "first_in_target_band": {
+      "boot_s": 62.239261,
+      "vn": 4.837851524353027,
+      "ve": 0.00461280532181263,
+      "hvel": 4.837853723466414
+    },
+    "last_in_target_band": {
+      "boot_s": 62.639101,
+      "vn": 5.192943096160889,
+      "ve": -0.006251153536140919,
+      "hvel": 5.192946858661811
+    },
+    "settled": null,
+    "actual_six_settle": {
+      "sample": {
+        "boot_s": 64.339254,
+        "vn": 5.704361438751221,
+        "ve": 0.011505864560604095,
+        "hvel": 5.704373042572793
+      },
+      "mean": 5.954485434765268,
+      "min": 5.704373042572793,
+      "max": 6.005845895566602,
+      "time_remaining": 24.742599,
+      "distance_remaining": 147.76574498962387
+    }
+  },
+  "persistent_repeat": {
+    "target_speed": 5.0,
+    "tolerance": 0.25,
+    "apply_time": 57.979299,
+    "nav_start": 57.9768,
+    "nav_end": 93.869104,
+    "nav_duration_after_apply": 35.889804999999996,
+    "apply_before_nav_start_ms": -2.499000000000251,
+    "next_do_time": 93.869104,
+    "next_nav_time": 93.869104,
+    "peak_hvel": 5.641583515653724,
+    "first_in_target_band": {
+      "boot_s": 62.139301,
+      "vn": 4.782931804656982,
+      "ve": 0.008035518229007721,
+      "hvel": 4.782938554649485
+    },
+    "last_in_target_band": {
+      "boot_s": 93.839116,
+      "vn": 4.946317672729492,
+      "ve": -0.39161521196365356,
+      "hvel": 4.961796145933188
+    },
+    "settled": {
+      "boot_s": 64.939847,
+      "vn": 5.1893534660339355,
+      "ve": 0.023072335869073868,
+      "hvel": 5.189404756628729
+    },
+    "settled_mean": 4.971247455156393,
+    "settled_min": 4.88729394644869,
+    "settled_max": 5.189404756628729,
+    "time_remaining_at_settle": 28.929256999999993,
+    "distance_remaining_at_settle": 144.27033666368789
+  },
+  "direct": {
+    "speed_apply_count": 0
+  },
+  "minrem": {
+    "speed_apply_count": 0
+  },
+  "vertical": {
+    "speed_apply_count": 0
+  },
+  "once": {
+    "speed_apply_count": 2
+  },
+  "external": {
+    "speed_apply_count": 2
+  },
+  "rollback0": {
+    "speed_apply_count": 1
+  },
+  "rollback_nonzero": {
+    "speed_apply_count": 1
+  }
+}

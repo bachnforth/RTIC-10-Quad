@@ -1,0 +1,10 @@
+utc,boot_s,record_type,detail
+2026-09-20T00:32:27.991Z,43.154398,ARM,armed=1 method=1 forced=0
+2026-09-20T00:32:27.991Z,43.154398,MODE,mode=4 reason=2
+2026-09-20T00:32:41.878Z,57.042174,MODE,mode=5 reason=2
+2026-09-20T00:32:41.891Z,57.054669,MODE,mode=3 reason=2
+2026-09-20T00:32:41.893Z,57.057168,MISE,seq=2 command=16 param1=0.0 param2=0.0
+2026-09-20T00:32:41.893Z,57.057168,MSG,Mission: 2 WP
+2026-09-20T00:32:41.982Z,57.145466,MSG,NWA: AUTO transition detected directly; no mission
+2026-09-20T00:32:44.896Z,60.059300,MODE,mode=5 reason=2
+2026-09-20T00:32:45.373Z,60.536609,ARM,armed=0 method=1 forced=1

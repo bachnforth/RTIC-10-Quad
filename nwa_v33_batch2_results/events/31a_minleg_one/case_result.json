@@ -1,0 +1,125 @@
+{
+  "case": "31a_minleg_one",
+  "parameters": {
+    "ARMING_SKIPCHK": 65535,
+    "SCR_ENABLE": 1,
+    "RC7_OPTION": 300,
+    "WP_SPD": 6,
+    "NWA_DEBUG": 1,
+    "NWA_START": 2,
+    "NWA_END": 3,
+    "NWA_MINREM": 5,
+    "NWA_MAXDIST": 100,
+    "NWA_MINLEG": 1,
+    "NWA_AMBIG": 1,
+    "NWA_ENABLE": 1,
+    "NWA_ONCE": 0,
+    "MIS_RESTART": 0
+  },
+  "mission": [
+    [
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      0,
+      35.0495415,
+      -79.490181,
+      100.44,
+      1
+    ],
+    [
+      1,
+      3,
+      22,
+      0,
+      0,
+      0,
+      0,
+      35.0495415,
+      -79.490181,
+      20,
+      0
+    ],
+    [
+      2,
+      3,
+      16,
+      0,
+      0,
+      0,
+      0,
+      35.04949209265937,
+      -79.490181,
+      20,
+      0
+    ],
+    [
+      3,
+      3,
+      16,
+      0,
+      0,
+      0,
+      0,
+      35.04959090734062,
+      -79.490181,
+      20,
+      0
+    ],
+    [
+      4,
+      2,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "action": "accept",
+  "expected": {
+    "to": 3
+  },
+  "verdict": "PASS",
+  "start_mode": 4,
+  "start_index": 1,
+  "aircraft_position": {
+    "lat": 35.0495397,
+    "lon": -79.4901845,
+    "rel_alt_m": 20.0
+  },
+  "nwa_statustext": [
+    "NWA: Scripting1 entry switch HIGH",
+    "NWA: position 35.0495415,-79.4901810",
+    "NWA: candidate 2->3 xtrack 0.3m t=0.48 rem 5.7m",
+    "NWA: selected NAV 3 leg 2->3 xtrk 0.3m rem 5.7m",
+    "NWA: effective speed 6.0m/s from WP_SPD",
+    "NWA: staged NAV 3",
+    "NWA: AUTO entered",
+    "NWA: AUTO transition: scripted entry",
+    "NWA: NAV 3 initialized; waiting for stable observa",
+    "NWA: NAV 3 stable",
+    "NWA: speed applied 6.0m/s",
+    "NWA: NAV 3 postcheck successful",
+    "NWA: scripted entry complete"
+  ],
+  "staged_count": 1,
+  "speed_setter_count": 1,
+  "completion_count": 1,
+  "auto_transition_count": 1,
+  "mission_transitions": [
+    3
+  ],
+  "mode_transitions": [
+    3
+  ],
+  "final_mode": 3,
+  "final_index": 3
+}

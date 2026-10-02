@@ -1,0 +1,35 @@
+# Betaflight / STM32F745 (S745) 4.5.1 Jan 28 2025 / 10:36:25 (7fc32486c) MSP API: 1.46
+
+batch start
+defaults nosave
+
+board_name LUXNDAAF7
+manufacturer_id LMNR
+mcu_id 003700263532510c35303630
+signature
+
+feature SERVO_TILT
+feature RANGEFINDER
+feature TELEMETRY
+feature LED_STRIP
+feature DISPLAY
+feature OSD
+feature CHANNEL_FORWARDING
+feature TRANSPONDER
+
+serial 6 64 115200 57600 0 115200
+
+set yaw_motors_reversed = ON
+set osd_warnings_pos = 14740
+set osd_displayport_device = AUTO
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set vcd_video_system = AUTO
+
+profile 0
+rateprofile 0
+
+save
+
+# ESC directions verified separately in props-out layout:
+# motor 1 CCW, motor 2 CW, motor 3 CW, motor 4 CCW (viewed from above)

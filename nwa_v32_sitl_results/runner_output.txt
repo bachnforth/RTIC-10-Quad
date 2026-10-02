@@ -1,0 +1,64 @@
+{"utc": "2026-09-19T23:59:50.094+00:00", "boot_ms": null, "kind": "heartbeat", "text": "connected", "mode": 0, "base_mode": 81}
+{"utc": "2026-09-19T23:59:50.102+00:00", "boot_ms": null, "kind": "PARAM", "text": "SCR_ENABLE=1.0", "name": "SCR_ENABLE", "value": 1.0}
+{"utc": "2026-09-19T23:59:50.123+00:00", "boot_ms": null, "kind": "PARAM", "text": "MIS_RESTART=0.0", "name": "MIS_RESTART", "value": 0.0}
+{"utc": "2026-09-19T23:59:50.144+00:00", "boot_ms": null, "kind": "PARAM", "text": "RC7_OPTION=300.0", "name": "RC7_OPTION", "value": 300.0}
+{"utc": "2026-09-19T23:59:50.144+00:00", "boot_ms": null, "kind": "PARAM", "text": "WP_SPD=6.0", "name": "WP_SPD", "value": 6.0}
+{"utc": "2026-09-19T23:59:50.144+00:00", "boot_ms": null, "kind": "PARAM", "text": "NWA_ENABLE=1.0", "name": "NWA_ENABLE", "value": 1.0}
+{"utc": "2026-09-19T23:59:50.164+00:00", "boot_ms": null, "kind": "PARAM", "text": "NWA_MAXDIST=100.0", "name": "NWA_MAXDIST", "value": 100.0}
+{"utc": "2026-09-19T23:59:50.164+00:00", "boot_ms": null, "kind": "PARAM", "text": "NWA_MINREM=20.0", "name": "NWA_MINREM", "value": 20.0}
+{"utc": "2026-09-19T23:59:50.185+00:00", "boot_ms": null, "kind": "PARAM", "text": "NWA_DEBUG=1.0", "name": "NWA_DEBUG", "value": 1.0}
+{"utc": "2026-09-19T23:59:50.185+00:00", "boot_ms": null, "kind": "PARAM", "text": "NWA_ONCE=1.0", "name": "NWA_ONCE", "value": 1.0}
+{"utc": "2026-09-19T23:59:50.248+00:00", "boot_ms": null, "kind": "MISSION_UPLOAD", "text": "accepted", "count": 10}
+{"utc": "2026-09-19T23:59:50.248+00:00", "boot_ms": null, "kind": "STATUSTEXT", "text": "Flight plan received", "severity": 6}
+{"utc": "2026-09-19T23:59:50.319+00:00", "boot_ms": null, "kind": "MISSION_VERIFY", "text": "commands verified", "commands": [16, 22, 16, 178, 16, 178, 16, 178, 16, 20]}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 511 result 0", "command": 511, "result": 0}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 511 result 0", "command": 511, "result": 0}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 511 result 0", "command": 511, "result": 0}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 511 result 0", "command": 511, "result": 0}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 511 result 0", "command": 511, "result": 0}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 511 result 0", "command": 511, "result": 0}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 511 result 0", "command": 511, "result": 0}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 511 result 0", "command": 511, "result": 0}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "RC7", "text": "1000", "pwm": 1000}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 511 result 0", "command": 511, "result": 0}
+{"utc": "2026-09-19T23:59:50.625+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 511 result 0", "command": 511, "result": 0}
+{"utc": "2026-09-19T23:59:50.627+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 176 result 0", "command": 176, "result": 0}
+{"utc": "2026-09-19T23:59:50.627+00:00", "boot_ms": null, "kind": "MODE", "text": "mode 4", "mode": 4}
+{"utc": "2026-09-19T23:59:50.627+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 400 result 0", "command": 400, "result": 0}
+{"utc": "2026-09-19T23:59:50.627+00:00", "boot_ms": null, "kind": "STATUSTEXT", "text": "Arming motors", "severity": 6}
+{"utc": "2026-09-19T23:59:50.823+00:00", "boot_ms": null, "kind": "ARM", "text": "armed"}
+{"utc": "2026-09-19T23:59:50.823+00:00", "boot_ms": null, "kind": "TAKEOFF", "text": "requested 20m"}
+{"utc": "2026-09-19T23:59:50.843+00:00", "boot_ms": null, "kind": "COMMAND_ACK", "text": "cmd 22 result 0", "command": 22, "result": 0}
+{"utc": "2026-09-19T23:59:50.843+00:00", "boot_ms": 140609, "kind": "MISSION_CURRENT", "text": "seq 0", "seq": 0}
+{"utc": "2026-09-19T23:59:56.325+00:00", "boot_ms": 146009, "kind": "STATUSTEXT", "text": "EKF3 IMU0 MAG0 in-flight yaw alignment complete", "severity": 6}
+{"utc": "2026-09-19T23:59:56.325+00:00", "boot_ms": 146009, "kind": "STATUSTEXT", "text": "EKF3 IMU1 MAG0 in-flight yaw alignment complete", "severity": 6}
+{"utc": "2026-09-20T00:00:02.466+00:00", "boot_ms": 152209, "kind": "TAKEOFF", "text": "altitude reached"}
+{"utc": "2026-09-20T00:00:06.660+00:00", "boot_ms": 156409, "kind": "RC7", "text": "2000", "pwm": 2000}
+{"utc": "2026-09-20T00:00:06.660+00:00", "boot_ms": 156409, "kind": "TRIGGER", "text": "Scripting1 HIGH"}
+{"utc": "2026-09-20T00:01:01.443+00:00", "boot_ms": 211109, "kind": "STATUSTEXT", "text": "NWA: Scripting1 entry switch HIGH", "severity": 6}
+{"utc": "2026-09-20T00:01:01.443+00:00", "boot_ms": 211109, "kind": "STATUSTEXT", "text": "NWA: position 35.0495415,-79.4901810", "severity": 6}
+{"utc": "2026-09-20T00:01:01.443+00:00", "boot_ms": 211109, "kind": "STATUSTEXT", "text": "NWA: candidate 4->6 xtrack 4.0m t=0.54 rem 51.2m", "severity": 6}
+{"utc": "2026-09-20T00:01:01.443+00:00", "boot_ms": 211109, "kind": "STATUSTEXT", "text": "NWA: selected NAV 6 leg 4->6 xtrk 4.0m rem 51.2m", "severity": 6}
+{"utc": "2026-09-20T00:01:01.443+00:00", "boot_ms": 211109, "kind": "STATUSTEXT", "text": "NWA: effective speed 5.0m/s from DO seq 5", "severity": 6}
+{"utc": "2026-09-20T00:01:01.443+00:00", "boot_ms": 211109, "kind": "STATUSTEXT", "text": "NWA: staged NAV 6", "severity": 6}
+{"utc": "2026-09-20T00:01:01.443+00:00", "boot_ms": 211109, "kind": "STATUSTEXT", "text": "Mission: 6 WP", "severity": 6}
+{"utc": "2026-09-20T00:01:01.472+00:00", "boot_ms": 211109, "kind": "STATUSTEXT", "text": "NWA: AUTO entered", "severity": 6}
+{"utc": "2026-09-20T00:01:01.472+00:00", "boot_ms": 211109, "kind": "STATUSTEXT", "text": "NWA: speed applied 5.0m/s", "severity": 6}
+{"utc": "2026-09-20T00:01:01.472+00:00", "boot_ms": 211209, "kind": "MISSION_CURRENT", "text": "seq 6", "seq": 6}
+{"utc": "2026-09-20T00:01:01.555+00:00", "boot_ms": 211209, "kind": "STATUSTEXT", "text": "NWA: AUTO transition: scripted entry", "severity": 6}
+{"utc": "2026-09-20T00:01:01.555+00:00", "boot_ms": 211209, "kind": "STATUSTEXT", "text": "NWA: NAV 6 confirmed active", "severity": 6}
+{"utc": "2026-09-20T00:01:01.555+00:00", "boot_ms": 211209, "kind": "STATUSTEXT", "text": "NWA: scripted entry complete", "severity": 6}
+{"utc": "2026-09-20T00:01:13.985+00:00", "boot_ms": 223709, "kind": "STATUSTEXT", "text": "Reached command #6", "severity": 6}
+{"utc": "2026-09-20T00:01:13.985+00:00", "boot_ms": 223709, "kind": "STATUSTEXT", "text": "Mission: 7 ChangeSpeed", "severity": 6}
+{"utc": "2026-09-20T00:01:13.985+00:00", "boot_ms": 223709, "kind": "STATUSTEXT", "text": "Mission: 8 WP", "severity": 6}
+{"utc": "2026-09-20T00:01:14.052+00:00", "boot_ms": 223809, "kind": "MISSION_CURRENT", "text": "seq 8", "seq": 8}
+{"utc": "2026-09-20T00:01:32.056+00:00", "boot_ms": 241709, "kind": "CAPTURE", "text": "NAV6 and NAV8 captured"}
+{"utc": "2026-09-20T00:01:32.064+00:00", "boot_ms": 241709, "kind": "COMMAND_ACK", "text": "cmd 176 result 0", "command": 176, "result": 0}
+{"utc": "2026-09-20T00:01:32.064+00:00", "boot_ms": 241709, "kind": "MODE", "text": "mode 5", "mode": 5}
+{"utc": "2026-09-20T00:01:33.080+00:00", "boot_ms": 242809, "kind": "COMMAND_ACK", "text": "cmd 400 result 4", "command": 400, "result": 4}
+{"utc": "2026-09-20T00:01:40.950+00:00", "boot_ms": 250609, "kind": "STATUSTEXT", "text": "SIM Hit ground at 2.488709 m/s", "severity": 6}
+Traceback (most recent call last):
+  File "C:\Users\ebach\Documents\ChatGPT\10 inch Quad\nwa_v32_sitl_results\run_v32_sitl.py", line 157, in <module>
+    if not wait_type({'HEARTBEAT'},10,lambda q:(q.base_mode & mavutil.mavlink.MAV_MODE_FLAG_SAFETY_ARMED)==0): raise RuntimeError('disarm timeout')
+                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: disarm timeout

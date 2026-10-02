@@ -1,0 +1,14 @@
+[Unit]
+Description=FPV camera composite preview
+After=multi-user.target
+
+[Service]
+Type=simple
+User=ebach
+SupplementaryGroups=video render
+ExecStart=/usr/bin/rpicam-hello --timeout 0 --fullscreen --viewfinder-width 640 --viewfinder-height 480 --framerate 30
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

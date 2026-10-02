@@ -1,0 +1,30 @@
+{
+    "version":  1,
+    "fileType": "MavlinkActions",
+    "actions": [
+        {
+            "label":       "Safety DISARM",
+            "description": "Clears the safety-device ARM request. Overrides SB. Does not touch motors.",
+            "mavCmd":      31010,
+            "compId":      1,
+            "param1":      0,
+            "param2":      7713
+        },
+        {
+            "label":       "Safety ARM 1/2: request",
+            "description": "Step 1 of 2. Then tap 'Safety ARM 2/2: confirm' within 10 s. Does not arm motors.",
+            "mavCmd":      31010,
+            "compId":      1,
+            "param1":      1,
+            "param2":      7713
+        },
+        {
+            "label":       "Safety ARM 2/2: confirm",
+            "description": "Step 2 of 2. Starts the safety device's 31 s standoff if SW1 is ENABLE. Does not arm motors.",
+            "mavCmd":      31010,
+            "compId":      1,
+            "param1":      2,
+            "param2":      7713
+        }
+    ]
+}

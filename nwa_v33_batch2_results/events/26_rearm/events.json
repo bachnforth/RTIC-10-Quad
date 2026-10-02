@@ -1,0 +1,892 @@
+[
+  {
+    "utc": "2026-09-21T19:06:40.507+00:00",
+    "boot_ms": null,
+    "kind": "HEARTBEAT",
+    "text": "connected",
+    "mode": 0,
+    "base_mode": 81
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": null,
+    "kind": "MODE",
+    "text": "mode 0",
+    "mode": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": null,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 511 result 0",
+    "command": 511,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": null,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 511 result 0",
+    "command": 511,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": null,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU0 initialised",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": null,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU1 initialised",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": null,
+    "kind": "STATUSTEXT",
+    "text": "AHRS: EKF3 active",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": null,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 511 result 0",
+    "command": 511,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": null,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 511 result 0",
+    "command": 511,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": null,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 511 result 0",
+    "command": 511,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": null,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 511 result 0",
+    "command": 511,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": 4884,
+    "kind": "MISSION_CURRENT",
+    "text": "seq 0",
+    "seq": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": 4884,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 511 result 0",
+    "command": 511,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": 4884,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 511 result 0",
+    "command": 511,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.691+00:00",
+    "boot_ms": 4984,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 511 result 0",
+    "command": 511,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:40.798+00:00",
+    "boot_ms": 5784,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU1 tilt alignment complete",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:40.798+00:00",
+    "boot_ms": 5784,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU0 tilt alignment complete",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:40.828+00:00",
+    "boot_ms": 5884,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU1 MAG0 initial yaw alignment complete",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:40.828+00:00",
+    "boot_ms": 5884,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU0 MAG0 initial yaw alignment complete",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6784,
+    "kind": "PARAM",
+    "text": "ARMING_SKIPCHK=65535.0",
+    "name": "ARMING_SKIPCHK",
+    "value": 65535.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6784,
+    "kind": "PARAM",
+    "text": "SCR_ENABLE=1.0",
+    "name": "SCR_ENABLE",
+    "value": 1.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6784,
+    "kind": "PARAM",
+    "text": "RC7_OPTION=300.0",
+    "name": "RC7_OPTION",
+    "value": 300.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6784,
+    "kind": "PARAM",
+    "text": "WP_SPD=6.0",
+    "name": "WP_SPD",
+    "value": 6.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6784,
+    "kind": "PARAM",
+    "text": "NWA_DEBUG=1.0",
+    "name": "NWA_DEBUG",
+    "value": 1.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6784,
+    "kind": "PARAM",
+    "text": "NWA_START=2.0",
+    "name": "NWA_START",
+    "value": 2.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6784,
+    "kind": "PARAM",
+    "text": "NWA_END=3.0",
+    "name": "NWA_END",
+    "value": 3.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6884,
+    "kind": "PARAM",
+    "text": "NWA_MINREM=30.0",
+    "name": "NWA_MINREM",
+    "value": 30.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6884,
+    "kind": "PARAM",
+    "text": "NWA_MAXDIST=100.0",
+    "name": "NWA_MAXDIST",
+    "value": 100.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6884,
+    "kind": "PARAM",
+    "text": "NWA_MINLEG=2.0",
+    "name": "NWA_MINLEG",
+    "value": 2.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6884,
+    "kind": "PARAM",
+    "text": "NWA_AMBIG=1.0",
+    "name": "NWA_AMBIG",
+    "value": 1.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6884,
+    "kind": "PARAM",
+    "text": "NWA_ENABLE=1.0",
+    "name": "NWA_ENABLE",
+    "value": 1.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6884,
+    "kind": "PARAM",
+    "text": "NWA_ONCE=1.0",
+    "name": "NWA_ONCE",
+    "value": 1.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.021+00:00",
+    "boot_ms": 6884,
+    "kind": "PARAM",
+    "text": "MIS_RESTART=0.0",
+    "name": "MIS_RESTART",
+    "value": 0.0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.050+00:00",
+    "boot_ms": 6884,
+    "kind": "MISSION_UPLOAD",
+    "text": "accepted",
+    "count": 5
+  },
+  {
+    "utc": "2026-09-21T19:06:41.050+00:00",
+    "boot_ms": 6884,
+    "kind": "STATUSTEXT",
+    "text": "Flight plan received",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:41.050+00:00",
+    "boot_ms": 6984,
+    "kind": "MISSION_VERIFY",
+    "text": "download verified",
+    "commands": [
+      16,
+      22,
+      16,
+      16,
+      20
+    ]
+  },
+  {
+    "utc": "2026-09-21T19:06:41.374+00:00",
+    "boot_ms": 8484,
+    "kind": "RC7",
+    "text": "1000",
+    "pwm": 1000
+  },
+  {
+    "utc": "2026-09-21T19:06:41.374+00:00",
+    "boot_ms": 8484,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 176 result 0",
+    "command": 176,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:41.374+00:00",
+    "boot_ms": 8484,
+    "kind": "MODE",
+    "text": "mode 4",
+    "mode": 4
+  },
+  {
+    "utc": "2026-09-21T19:06:41.605+00:00",
+    "boot_ms": 9784,
+    "kind": "STATUSTEXT",
+    "text": "GPS 1: probing for u-blox at 230400 baud",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:41.605+00:00",
+    "boot_ms": 9784,
+    "kind": "STATUSTEXT",
+    "text": "GPS 1: detected u-blox",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:41.726+00:00",
+    "boot_ms": 10384,
+    "kind": "STATUSTEXT",
+    "text": "PreArm: Need Position Estimate",
+    "severity": 2
+  },
+  {
+    "utc": "2026-09-21T19:06:43.631+00:00",
+    "boot_ms": 19984,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU1 origin set",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:43.663+00:00",
+    "boot_ms": 19984,
+    "kind": "STATUSTEXT",
+    "text": "Field Elevation Set: 101m",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:43.666+00:00",
+    "boot_ms": 20184,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU0 origin set",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:44.824+00:00",
+    "boot_ms": 25884,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 400 result 4",
+    "command": 400,
+    "result": 4
+  },
+  {
+    "utc": "2026-09-21T19:06:44.824+00:00",
+    "boot_ms": 25884,
+    "kind": "STATUSTEXT",
+    "text": "Arm: Need Position Estimate",
+    "severity": 2
+  },
+  {
+    "utc": "2026-09-21T19:06:46.842+00:00",
+    "boot_ms": 35984,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 400 result 4",
+    "command": 400,
+    "result": 4
+  },
+  {
+    "utc": "2026-09-21T19:06:46.842+00:00",
+    "boot_ms": 35984,
+    "kind": "STATUSTEXT",
+    "text": "Arm: Need Position Estimate",
+    "severity": 2
+  },
+  {
+    "utc": "2026-09-21T19:06:47.907+00:00",
+    "boot_ms": 41384,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU0 is using GPS",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:47.940+00:00",
+    "boot_ms": 41584,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU1 is using GPS",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:48.844+00:00",
+    "boot_ms": 45984,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 400 result 0",
+    "command": 400,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:48.844+00:00",
+    "boot_ms": 45984,
+    "kind": "STATUSTEXT",
+    "text": "Arming motors",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:48.844+00:00",
+    "boot_ms": 46084,
+    "kind": "ARM",
+    "text": "armed"
+  },
+  {
+    "utc": "2026-09-21T19:06:48.844+00:00",
+    "boot_ms": 46084,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 22 result 0",
+    "command": 22,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:49.969+00:00",
+    "boot_ms": 51684,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU0 MAG0 in-flight yaw alignment complete",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:49.969+00:00",
+    "boot_ms": 51684,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU1 MAG0 in-flight yaw alignment complete",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:51.194+00:00",
+    "boot_ms": 57884,
+    "kind": "TAKEOFF",
+    "text": "altitude reached"
+  },
+  {
+    "utc": "2026-09-21T19:06:53.193+00:00",
+    "boot_ms": 67884,
+    "kind": "MISSION_CURRENT",
+    "text": "seq 1",
+    "seq": 1
+  },
+  {
+    "utc": "2026-09-21T19:06:53.193+00:00",
+    "boot_ms": 67884,
+    "kind": "SET_CURRENT",
+    "text": "seq 1",
+    "seq": 1
+  },
+  {
+    "utc": "2026-09-21T19:06:53.505+00:00",
+    "boot_ms": 69384,
+    "kind": "RC7",
+    "text": "1000",
+    "pwm": 1000
+  },
+  {
+    "utc": "2026-09-21T19:06:53.887+00:00",
+    "boot_ms": 71384,
+    "kind": "STATUSTEXT",
+    "text": "NWA: Scripting1 entry switch HIGH",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.887+00:00",
+    "boot_ms": 71384,
+    "kind": "STATUSTEXT",
+    "text": "NWA: position 35.0495415,-79.4901810",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.887+00:00",
+    "boot_ms": 71384,
+    "kind": "STATUSTEXT",
+    "text": "NWA: candidate 2->3 xtrack 0.3m t=0.50 rem 100.2m",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.887+00:00",
+    "boot_ms": 71384,
+    "kind": "STATUSTEXT",
+    "text": "NWA: selected NAV 3 leg 2->3 xtrk 0.3m rem 100.2m",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.887+00:00",
+    "boot_ms": 71384,
+    "kind": "STATUSTEXT",
+    "text": "NWA: effective speed 6.0m/s from WP_SPD",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.887+00:00",
+    "boot_ms": 71384,
+    "kind": "MODE",
+    "text": "mode 3",
+    "mode": 3
+  },
+  {
+    "utc": "2026-09-21T19:06:53.887+00:00",
+    "boot_ms": 71384,
+    "kind": "STATUSTEXT",
+    "text": "NWA: staged NAV 3",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.887+00:00",
+    "boot_ms": 71384,
+    "kind": "STATUSTEXT",
+    "text": "Mission: 3 WP",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.887+00:00",
+    "boot_ms": 71384,
+    "kind": "STATUSTEXT",
+    "text": "NWA: AUTO entered",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.923+00:00",
+    "boot_ms": 71484,
+    "kind": "MISSION_CURRENT",
+    "text": "seq 3",
+    "seq": 3
+  },
+  {
+    "utc": "2026-09-21T19:06:53.923+00:00",
+    "boot_ms": 71484,
+    "kind": "STATUSTEXT",
+    "text": "NWA: AUTO transition: scripted entry",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.923+00:00",
+    "boot_ms": 71484,
+    "kind": "STATUSTEXT",
+    "text": "NWA: NAV 3 initialized; waiting for stable observa",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.923+00:00",
+    "boot_ms": 71484,
+    "kind": "STATUSTEXT",
+    "text": "tion",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.925+00:00",
+    "boot_ms": 71584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: NAV 3 stable",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.925+00:00",
+    "boot_ms": 71584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: speed applied 6.0m/s",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.925+00:00",
+    "boot_ms": 71584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: NAV 3 postcheck successful",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.925+00:00",
+    "boot_ms": 71584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: scripted entry complete",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.955+00:00",
+    "boot_ms": 71584,
+    "kind": "TRIGGER",
+    "text": "Scripting1 LOW->HIGH"
+  },
+  {
+    "utc": "2026-09-21T19:06:53.955+00:00",
+    "boot_ms": 71584,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 176 result 0",
+    "command": 176,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:53.955+00:00",
+    "boot_ms": 71584,
+    "kind": "MODE",
+    "text": "mode 5",
+    "mode": 5
+  },
+  {
+    "utc": "2026-09-21T19:06:53.955+00:00",
+    "boot_ms": 71584,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 400 result 0",
+    "command": 400,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:53.955+00:00",
+    "boot_ms": 71584,
+    "kind": "STATUSTEXT",
+    "text": "Disarming motors",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:53.955+00:00",
+    "boot_ms": 71684,
+    "kind": "MISSION_CURRENT",
+    "text": "seq 0",
+    "seq": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:54.380+00:00",
+    "boot_ms": 73884,
+    "kind": "STATUSTEXT",
+    "text": "SIM Hit ground at 14.53179 m/s",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:54.664+00:00",
+    "boot_ms": 75184,
+    "kind": "RC7",
+    "text": "1000",
+    "pwm": 1000
+  },
+  {
+    "utc": "2026-09-21T19:06:54.672+00:00",
+    "boot_ms": 75184,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 176 result 0",
+    "command": 176,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:54.672+00:00",
+    "boot_ms": 75184,
+    "kind": "MODE",
+    "text": "mode 4",
+    "mode": 4
+  },
+  {
+    "utc": "2026-09-21T19:06:54.672+00:00",
+    "boot_ms": 75184,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 400 result 0",
+    "command": 400,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:54.672+00:00",
+    "boot_ms": 75184,
+    "kind": "STATUSTEXT",
+    "text": "Arming motors",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:54.672+00:00",
+    "boot_ms": 75284,
+    "kind": "ARM",
+    "text": "armed"
+  },
+  {
+    "utc": "2026-09-21T19:06:54.672+00:00",
+    "boot_ms": 75284,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 22 result 0",
+    "command": 22,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:06:55.809+00:00",
+    "boot_ms": 80984,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU0 MAG0 in-flight yaw alignment complete",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:55.809+00:00",
+    "boot_ms": 80984,
+    "kind": "STATUSTEXT",
+    "text": "EKF3 IMU1 MAG0 in-flight yaw alignment complete",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:57.034+00:00",
+    "boot_ms": 87184,
+    "kind": "TAKEOFF",
+    "text": "altitude reached"
+  },
+  {
+    "utc": "2026-09-21T19:06:59.037+00:00",
+    "boot_ms": 97184,
+    "kind": "MISSION_CURRENT",
+    "text": "seq 1",
+    "seq": 1
+  },
+  {
+    "utc": "2026-09-21T19:06:59.037+00:00",
+    "boot_ms": 97184,
+    "kind": "SET_CURRENT",
+    "text": "seq 1",
+    "seq": 1
+  },
+  {
+    "utc": "2026-09-21T19:06:59.350+00:00",
+    "boot_ms": 98684,
+    "kind": "RC7",
+    "text": "1000",
+    "pwm": 1000
+  },
+  {
+    "utc": "2026-09-21T19:06:59.712+00:00",
+    "boot_ms": 100584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: Scripting1 entry switch HIGH",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.712+00:00",
+    "boot_ms": 100584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: position 35.0495415,-79.4901810",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100584,
+    "kind": "MODE",
+    "text": "mode 3",
+    "mode": 3
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: candidate 2->3 xtrack 0.3m t=0.50 rem 100.0m",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: selected NAV 3 leg 2->3 xtrk 0.3m rem 100.0m",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: effective speed 6.0m/s from WP_SPD",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: staged NAV 3",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100584,
+    "kind": "STATUSTEXT",
+    "text": "NWA: AUTO entered",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100584,
+    "kind": "STATUSTEXT",
+    "text": "Mission: 3 WP",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100684,
+    "kind": "MISSION_CURRENT",
+    "text": "seq 3",
+    "seq": 3
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100684,
+    "kind": "STATUSTEXT",
+    "text": "NWA: AUTO transition: scripted entry",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100684,
+    "kind": "STATUSTEXT",
+    "text": "NWA: NAV 3 initialized; waiting for stable observa",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.733+00:00",
+    "boot_ms": 100684,
+    "kind": "STATUSTEXT",
+    "text": "tion",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.754+00:00",
+    "boot_ms": 100784,
+    "kind": "STATUSTEXT",
+    "text": "NWA: NAV 3 stable",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.754+00:00",
+    "boot_ms": 100784,
+    "kind": "STATUSTEXT",
+    "text": "NWA: speed applied 6.0m/s",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.754+00:00",
+    "boot_ms": 100784,
+    "kind": "STATUSTEXT",
+    "text": "NWA: NAV 3 postcheck successful",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.754+00:00",
+    "boot_ms": 100784,
+    "kind": "STATUSTEXT",
+    "text": "NWA: scripted entry complete",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:06:59.791+00:00",
+    "boot_ms": 100884,
+    "kind": "TRIGGER",
+    "text": "Scripting1 LOW->HIGH"
+  },
+  {
+    "utc": "2026-09-21T19:07:00.291+00:00",
+    "boot_ms": 103384,
+    "kind": "CASE_COMPLETE",
+    "text": "26_rearm",
+    "verdict": "PASS"
+  },
+  {
+    "utc": "2026-09-21T19:07:00.295+00:00",
+    "boot_ms": 103384,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 176 result 0",
+    "command": 176,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:07:00.295+00:00",
+    "boot_ms": 103384,
+    "kind": "MODE",
+    "text": "mode 5",
+    "mode": 5
+  },
+  {
+    "utc": "2026-09-21T19:07:00.500+00:00",
+    "boot_ms": 104484,
+    "kind": "COMMAND_ACK",
+    "text": "cmd 400 result 0",
+    "command": 400,
+    "result": 0
+  },
+  {
+    "utc": "2026-09-21T19:07:00.500+00:00",
+    "boot_ms": 104484,
+    "kind": "STATUSTEXT",
+    "text": "Disarming motors",
+    "severity": 6
+  },
+  {
+    "utc": "2026-09-21T19:07:00.500+00:00",
+    "boot_ms": 104584,
+    "kind": "MISSION_CURRENT",
+    "text": "seq 0",
+    "seq": 0
+  }
+]

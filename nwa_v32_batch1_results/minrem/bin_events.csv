@@ -1,0 +1,8 @@
+utc,boot_s,record_type,detail
+2026-09-20T00:33:32.108Z,43.271851,ARM,armed=1 method=1 forced=0
+2026-09-20T00:33:32.108Z,43.271851,MODE,mode=4 reason=2
+2026-09-20T00:33:46.922Z,58.085923,MSG,NWA: Scripting1 entry switch HIGH
+2026-09-20T00:33:46.923Z,58.086756,MSG,"NWA: position 35.0495415,-79.4901810"
+2026-09-20T00:33:46.931Z,58.094253,MSG,NWA: reject no eligible leg with >=20.0m remaining
+2026-09-20T00:33:49.719Z,60.882304,MODE,mode=5 reason=2
+2026-09-20T00:33:50.233Z,61.397098,ARM,armed=0 method=1 forced=1

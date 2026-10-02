@@ -1,0 +1,852 @@
+{
+  "persistent_1": {
+    "version": "ArduCopter V4.7.1 (4776a3fb)",
+    "epoch_offset": 1790014572.8367968,
+    "speed_apply_count": 1,
+    "nwa_messages": [
+      "NWA: Scripting1 entry switch HIGH",
+      "NWA: position 35.0495415,-79.4901810",
+      "NWA: candidate 4->5 xtrack 0.3m t=0.25 rem 167.2m",
+      "NWA: selected NAV 5 leg 4->5 xtrk 0.3m rem 167.2m",
+      "NWA: effective speed 5.0m/s from DO seq 3",
+      "NWA: staged NAV 5",
+      "NWA: AUTO entered",
+      "NWA: AUTO transition: scripted entry",
+      "NWA: NAV 5 initialized; waiting for stable observa",
+      "NWA: NAV 5 stable",
+      "NWA: speed applied 5.0m/s",
+      "NWA: NAV 5 postcheck successful",
+      "NWA: scripted entry complete"
+    ],
+    "modes": [
+      [
+        43.309336,
+        4,
+        2
+      ],
+      [
+        58.150897,
+        3,
+        32
+      ],
+      [
+        102.174114,
+        5,
+        2
+      ]
+    ],
+    "mise": [
+      [
+        58.15173,
+        5,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        94.102344,
+        6,
+        178,
+        1.0,
+        10.0
+      ],
+      [
+        94.102344,
+        7,
+        16,
+        0.0,
+        0.0
+      ]
+    ],
+    "mission_current_live": [
+      [
+        "2026-09-21T18:16:15.499+00:00",
+        2472,
+        0
+      ],
+      [
+        "2026-09-21T18:17:10.302+00:00",
+        57272,
+        1
+      ],
+      [
+        "2026-09-21T18:17:11.215+00:00",
+        58171,
+        5
+      ],
+      [
+        "2026-09-21T18:17:47.213+00:00",
+        94172,
+        7
+      ],
+      [
+        "2026-09-21T18:17:55.820+00:00",
+        102772,
+        0
+      ]
+    ],
+    "speed_metrics": {
+      "target_speed": 5.0,
+      "tolerance": 0.25,
+      "apply_time": 58.38497,
+      "nav_initialized_observation": 58.261686,
+      "nav_stable_observation": 58.38497,
+      "initialized_to_stable_ms": 123.28400000000528,
+      "stable_to_apply_ms": 0.0,
+      "nav_start": 58.15173,
+      "nav_end": 94.102344,
+      "nav_duration_after_apply": 35.717374,
+      "apply_before_nav_start_ms": -233.2400000000021,
+      "next_do_time": 94.102344,
+      "next_nav_time": 94.102344,
+      "peak_hvel": 5.633664614792985,
+      "first_in_target_band": {
+        "boot_s": 62.439181,
+        "vn": 4.841811180114746,
+        "ve": 0.004506465047597885,
+        "hvel": 4.841813277286866
+      },
+      "last_in_target_band": {
+        "boot_s": 94.039036,
+        "vn": 4.946936130523682,
+        "ve": -0.3801116943359375,
+        "hvel": 4.961518112397813
+      },
+      "settled": {
+        "boot_s": 65.139767,
+        "vn": 5.202053070068359,
+        "ve": 0.023613521829247475,
+        "hvel": 5.202106663864249
+      },
+      "settled_mean": 4.9704617957771555,
+      "settled_min": 4.876710984677049,
+      "settled_max": 5.202106663864249,
+      "time_remaining_at_settle": 28.962576999999996,
+      "distance_remaining_at_settle": 144.41506983919447
+    }
+  },
+  "persistent_2": {
+    "version": "ArduCopter V4.7.1 (4776a3fb)",
+    "epoch_offset": 1790014678.8367968,
+    "speed_apply_count": 1,
+    "nwa_messages": [
+      "NWA: Scripting1 entry switch HIGH",
+      "NWA: position 35.0495415,-79.4901810",
+      "NWA: candidate 4->5 xtrack 0.3m t=0.25 rem 167.2m",
+      "NWA: selected NAV 5 leg 4->5 xtrk 0.3m rem 167.2m",
+      "NWA: effective speed 5.0m/s from DO seq 3",
+      "NWA: staged NAV 5",
+      "NWA: AUTO entered",
+      "NWA: AUTO transition: scripted entry",
+      "NWA: NAV 5 initialized; waiting for stable observa",
+      "NWA: NAV 5 stable",
+      "NWA: speed applied 5.0m/s",
+      "NWA: NAV 5 postcheck successful",
+      "NWA: scripted entry complete"
+    ],
+    "modes": [
+      [
+        43.226869,
+        4,
+        2
+      ],
+      [
+        58.023448,
+        3,
+        32
+      ],
+      [
+        101.954202,
+        5,
+        2
+      ]
+    ],
+    "mise": [
+      [
+        58.024281,
+        5,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        93.934078,
+        6,
+        178,
+        1.0,
+        10.0
+      ],
+      [
+        93.934078,
+        7,
+        16,
+        0.0,
+        0.0
+      ]
+    ],
+    "mission_current_live": [
+      [
+        "2026-09-21T18:18:01.912+00:00",
+        2469,
+        0
+      ],
+      [
+        "2026-09-21T18:18:56.509+00:00",
+        57069,
+        1
+      ],
+      [
+        "2026-09-21T18:18:57.496+00:00",
+        58069,
+        5
+      ],
+      [
+        "2026-09-21T18:19:33.399+00:00",
+        93969,
+        7
+      ],
+      [
+        "2026-09-21T18:19:42.010+00:00",
+        102569,
+        0
+      ]
+    ],
+    "speed_metrics": {
+      "target_speed": 5.0,
+      "tolerance": 0.25,
+      "apply_time": 58.254189,
+      "nav_initialized_observation": 58.149231,
+      "nav_stable_observation": 58.254189,
+      "initialized_to_stable_ms": 104.95799999999633,
+      "stable_to_apply_ms": 0.0,
+      "nav_start": 58.024281,
+      "nav_end": 93.934078,
+      "nav_duration_after_apply": 35.679889,
+      "apply_before_nav_start_ms": -229.90799999999467,
+      "next_do_time": 93.934078,
+      "next_nav_time": 93.934078,
+      "peak_hvel": 5.63885994736781,
+      "first_in_target_band": {
+        "boot_s": 62.239261,
+        "vn": 4.816786289215088,
+        "ve": 0.004200738389045,
+        "hvel": 4.816788120955028
+      },
+      "last_in_target_band": {
+        "boot_s": 93.839116,
+        "vn": 4.947743892669678,
+        "ve": -0.3670200705528259,
+        "hvel": 4.961337859855817
+      },
+      "settled": {
+        "boot_s": 64.939847,
+        "vn": 5.236405372619629,
+        "ve": 0.02286810800433159,
+        "hvel": 5.2364553064800825
+      },
+      "settled_mean": 4.971644658482828,
+      "settled_min": 4.885807461648843,
+      "settled_max": 5.2364553064800825,
+      "time_remaining_at_settle": 28.994231,
+      "distance_remaining_at_settle": 144.6042944972269
+    }
+  },
+  "persistent_3": {
+    "version": "ArduCopter V4.7.1 (4776a3fb)",
+    "epoch_offset": 1790014784.8367968,
+    "speed_apply_count": 1,
+    "nwa_messages": [
+      "NWA: Scripting1 entry switch HIGH",
+      "NWA: position 35.0495415,-79.4901810",
+      "NWA: candidate 4->5 xtrack 0.3m t=0.25 rem 167.2m",
+      "NWA: selected NAV 5 leg 4->5 xtrk 0.3m rem 167.2m",
+      "NWA: effective speed 5.0m/s from DO seq 3",
+      "NWA: staged NAV 5",
+      "NWA: AUTO entered",
+      "NWA: AUTO transition: scripted entry",
+      "NWA: NAV 5 initialized; waiting for stable observa",
+      "NWA: NAV 5 stable",
+      "NWA: speed applied 5.0m/s",
+      "NWA: NAV 5 postcheck successful",
+      "NWA: scripted entry complete"
+    ],
+    "modes": [
+      [
+        43.151899,
+        4,
+        2
+      ],
+      [
+        57.847685,
+        3,
+        32
+      ],
+      [
+        101.729292,
+        5,
+        2
+      ]
+    ],
+    "mise": [
+      [
+        57.849351,
+        5,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        93.734158,
+        6,
+        178,
+        1.0,
+        10.0
+      ],
+      [
+        93.734158,
+        7,
+        16,
+        0.0,
+        0.0
+      ]
+    ],
+    "mission_current_live": [
+      [
+        "2026-09-21T18:19:48.042+00:00",
+        2444,
+        0
+      ],
+      [
+        "2026-09-21T18:20:42.640+00:00",
+        57044,
+        1
+      ],
+      [
+        "2026-09-21T18:20:43.548+00:00",
+        57944,
+        5
+      ],
+      [
+        "2026-09-21T18:21:19.344+00:00",
+        93744,
+        7
+      ],
+      [
+        "2026-09-21T18:21:27.842+00:00",
+        102244,
+        0
+      ]
+    ],
+    "speed_metrics": {
+      "target_speed": 5.0,
+      "tolerance": 0.25,
+      "apply_time": 58.065931,
+      "nav_initialized_observation": 57.964305,
+      "nav_stable_observation": 58.064265,
+      "initialized_to_stable_ms": 99.95999999999583,
+      "stable_to_apply_ms": 1.6660000000001673,
+      "nav_start": 57.849351,
+      "nav_end": 93.734158,
+      "nav_duration_after_apply": 35.668226999999995,
+      "apply_before_nav_start_ms": -216.58000000000044,
+      "next_do_time": 93.734158,
+      "next_nav_time": 93.734158,
+      "peak_hvel": 5.64057478991764,
+      "first_in_target_band": {
+        "boot_s": 62.039341,
+        "vn": 4.821456432342529,
+        "ve": 0.009596175514161587,
+        "hvel": 4.821465981997763
+      },
+      "last_in_target_band": {
+        "boot_s": 93.639196,
+        "vn": 4.941199779510498,
+        "ve": -0.36678868532180786,
+        "hvel": 4.95479456695378
+      },
+      "settled": {
+        "boot_s": 64.739094,
+        "vn": 5.239556789398193,
+        "ve": 0.022632768377661705,
+        "hvel": 5.239605671377679
+      },
+      "settled_mean": 4.972039668721163,
+      "settled_min": 4.88844810164679,
+      "settled_max": 5.239605671377679,
+      "time_remaining_at_settle": 28.995064,
+      "distance_remaining_at_settle": 144.61542642519416
+    }
+  },
+  "local": {
+    "version": "ArduCopter V4.7.1 (4776a3fb)",
+    "epoch_offset": 1790014890.8367968,
+    "speed_apply_count": 1,
+    "nwa_messages": [
+      "NWA: Scripting1 entry switch HIGH",
+      "NWA: position 35.0495415,-79.4901810",
+      "NWA: candidate 4->6 xtrack 0.3m t=0.25 rem 167.2m",
+      "NWA: selected NAV 6 leg 4->6 xtrk 0.3m rem 167.2m",
+      "NWA: effective speed 5.0m/s from DO seq 5",
+      "NWA: staged NAV 6",
+      "NWA: AUTO entered",
+      "NWA: AUTO transition: scripted entry",
+      "NWA: NAV 6 initialized; waiting for stable observa",
+      "NWA: NAV 6 stable",
+      "NWA: speed applied 5.0m/s",
+      "NWA: NAV 6 postcheck successful",
+      "NWA: scripted entry complete"
+    ],
+    "modes": [
+      [
+        43.201879,
+        4,
+        2
+      ],
+      [
+        57.995126,
+        3,
+        32
+      ],
+      [
+        101.9592,
+        5,
+        2
+      ]
+    ],
+    "mise": [
+      [
+        57.996792,
+        6,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        93.901591,
+        7,
+        178,
+        1.0,
+        10.0
+      ],
+      [
+        93.901591,
+        8,
+        16,
+        0.0,
+        0.0
+      ]
+    ],
+    "mission_current_live": [
+      [
+        "2026-09-21T18:21:33.986+00:00",
+        2444,
+        0
+      ],
+      [
+        "2026-09-21T18:22:28.672+00:00",
+        57144,
+        1
+      ],
+      [
+        "2026-09-21T18:22:29.584+00:00",
+        58044,
+        6
+      ],
+      [
+        "2026-09-21T18:23:05.488+00:00",
+        93944,
+        8
+      ],
+      [
+        "2026-09-21T18:23:14.082+00:00",
+        102544,
+        0
+      ]
+    ],
+    "speed_metrics": {
+      "target_speed": 5.0,
+      "tolerance": 0.25,
+      "apply_time": 58.220036,
+      "nav_initialized_observation": 58.102583,
+      "nav_stable_observation": 58.220036,
+      "initialized_to_stable_ms": 117.45299999999759,
+      "stable_to_apply_ms": 0.0,
+      "nav_start": 57.996792,
+      "nav_end": 93.901591,
+      "nav_duration_after_apply": 35.681554999999996,
+      "apply_before_nav_start_ms": -223.2440000000011,
+      "next_do_time": 93.901591,
+      "next_nav_time": 93.901591,
+      "peak_hvel": 5.638715029219242,
+      "first_in_target_band": {
+        "boot_s": 62.239261,
+        "vn": 4.850620269775391,
+        "ve": 0.005232540890574455,
+        "hvel": 4.850623092040863
+      },
+      "last_in_target_band": {
+        "boot_s": 93.839116,
+        "vn": 4.941717624664307,
+        "ve": -0.3797137141227722,
+        "hvel": 4.956284453762793
+      },
+      "settled": {
+        "boot_s": 64.939847,
+        "vn": 5.208715438842773,
+        "ve": 0.02342231571674347,
+        "hvel": 5.208768100780894
+      },
+      "settled_mean": 4.971178230012128,
+      "settled_min": 4.88443407874616,
+      "settled_max": 5.208768100780894,
+      "time_remaining_at_settle": 28.961743999999996,
+      "distance_remaining_at_settle": 144.42618365256877
+    }
+  },
+  "rollback0": {
+    "version": "ArduCopter V4.7.1 (4776a3fb)",
+    "epoch_offset": 1790014996.8367968,
+    "speed_apply_count": 0,
+    "nwa_messages": [
+      "NWA: Scripting1 entry switch HIGH",
+      "NWA: position 35.0495415,-79.4901810",
+      "NWA: candidate 3->4 xtrack 0.3m t=0.25 rem 167.2m",
+      "NWA: selected NAV 4 leg 3->4 xtrk 0.3m rem 167.2m",
+      "NWA: effective speed 6.0m/s from WP_SPD",
+      "NWA: mission index 0 normalized to first NAV 1 for",
+      "NWA: staged NAV 4",
+      "NWA: AUTO entered",
+      "NWA: AUTO transition: scripted entry",
+      "NWA: NAV advanced to 6 before confirmation; prior "
+    ],
+    "modes": [
+      [
+        43.261855,
+        4,
+        2
+      ],
+      [
+        58.097585,
+        3,
+        32
+      ],
+      [
+        58.216704,
+        4,
+        32
+      ],
+      [
+        60.224234,
+        5,
+        2
+      ]
+    ],
+    "mise": [
+      [
+        58.099251,
+        4,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        58.121742,
+        6,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        58.124241,
+        6,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        58.124241,
+        6,
+        16,
+        0.0,
+        0.0
+      ]
+    ],
+    "mission_current_live": [
+      [
+        "2026-09-21T18:23:20.186+00:00",
+        2519,
+        0
+      ],
+      [
+        "2026-09-21T18:24:15.803+00:00",
+        58119,
+        4
+      ],
+      [
+        "2026-09-21T18:24:15.803+00:00",
+        58119,
+        6
+      ],
+      [
+        "2026-09-21T18:24:15.895+00:00",
+        58219,
+        1
+      ],
+      [
+        "2026-09-21T18:24:18.486+00:00",
+        60819,
+        0
+      ]
+    ]
+  },
+  "rollback_nonzero": {
+    "version": "ArduCopter V4.7.1 (4776a3fb)",
+    "epoch_offset": 1790015061.8367968,
+    "speed_apply_count": 0,
+    "nwa_messages": [
+      "NWA: Scripting1 entry switch HIGH",
+      "NWA: position 35.0495415,-79.4901810",
+      "NWA: candidate 3->4 xtrack 0.3m t=0.25 rem 167.2m",
+      "NWA: selected NAV 4 leg 3->4 xtrk 0.3m rem 167.2m",
+      "NWA: effective speed 6.0m/s from WP_SPD",
+      "NWA: staged NAV 4",
+      "NWA: AUTO entered",
+      "NWA: AUTO transition: scripted entry",
+      "NWA: NAV advanced to 6 before confirmation; prior "
+    ],
+    "modes": [
+      [
+        43.269352,
+        4,
+        2
+      ],
+      [
+        58.120076,
+        3,
+        32
+      ],
+      [
+        58.248358,
+        4,
+        32
+      ],
+      [
+        60.254222,
+        5,
+        2
+      ]
+    ],
+    "mise": [
+      [
+        58.121742,
+        4,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        58.141734,
+        6,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        58.144233,
+        6,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        58.144233,
+        6,
+        16,
+        0.0,
+        0.0
+      ]
+    ],
+    "mission_current_live": [
+      [
+        "2026-09-21T18:24:24.552+00:00",
+        2444,
+        0
+      ],
+      [
+        "2026-09-21T18:25:19.267+00:00",
+        57144,
+        1
+      ],
+      [
+        "2026-09-21T18:25:19.267+00:00",
+        57144,
+        3
+      ],
+      [
+        "2026-09-21T18:25:20.267+00:00",
+        58044,
+        6
+      ],
+      [
+        "2026-09-21T18:25:20.458+00:00",
+        58344,
+        3
+      ],
+      [
+        "2026-09-21T18:25:22.974+00:00",
+        60844,
+        0
+      ]
+    ]
+  },
+  "direct": {
+    "version": "ArduCopter V4.7.1 (4776a3fb)",
+    "epoch_offset": 1790015125.8367968,
+    "speed_apply_count": 0,
+    "nwa_messages": [
+      "NWA: V3.3 loaded; Scripting1 LOW->HIGH for staged ",
+      "NWA: AUTO transition detected directly; no mission"
+    ],
+    "modes": [
+      [
+        43.19938,
+        4,
+        2
+      ],
+      [
+        57.049671,
+        5,
+        2
+      ],
+      [
+        57.069663,
+        3,
+        2
+      ],
+      [
+        60.091787,
+        5,
+        2
+      ]
+    ],
+    "mise": [
+      [
+        57.072162,
+        2,
+        16,
+        0.0,
+        0.0
+      ]
+    ],
+    "mission_current_live": [
+      [
+        "2026-09-21T18:25:29.019+00:00",
+        2444,
+        0
+      ],
+      [
+        "2026-09-21T18:26:23.638+00:00",
+        57044,
+        2
+      ],
+      [
+        "2026-09-21T18:26:27.221+00:00",
+        60644,
+        0
+      ]
+    ]
+  },
+  "external": {
+    "version": "ArduCopter V4.7.1 (4776a3fb)",
+    "epoch_offset": 1790015189.8367968,
+    "speed_apply_count": 0,
+    "nwa_messages": [
+      "NWA: Scripting1 entry switch HIGH",
+      "NWA: position 35.0495415,-79.4901810",
+      "NWA: candidate 3->4 xtrack 0.3m t=0.25 rem 167.2m",
+      "NWA: selected NAV 4 leg 3->4 xtrk 0.3m rem 167.2m",
+      "NWA: effective speed 6.0m/s from WP_SPD",
+      "NWA: staged NAV 4",
+      "NWA: AUTO entered",
+      "NWA: left AUTO before NAV confirmation; mode chang",
+      "NWA: Scripting1 entry switch HIGH",
+      "NWA: position 35.0495415,-79.4901810",
+      "NWA: candidate 3->4 xtrack 0.3m t=0.25 rem 167.2m",
+      "NWA: selected NAV 4 leg 3->4 xtrk 0.3m rem 167.2m",
+      "NWA: effective speed 6.0m/s from WP_SPD",
+      "NWA: staged NAV 4",
+      "NWA: AUTO entered",
+      "NWA: left AUTO before NAV confirmation; mode chang"
+    ],
+    "modes": [
+      [
+        43.096921,
+        4,
+        2
+      ],
+      [
+        57.927653,
+        3,
+        32
+      ],
+      [
+        57.949311,
+        5,
+        2
+      ],
+      [
+        60.559933,
+        3,
+        32
+      ],
+      [
+        60.574094,
+        6,
+        2
+      ],
+      [
+        62.164291,
+        5,
+        2
+      ]
+    ],
+    "mise": [
+      [
+        57.929319,
+        4,
+        16,
+        0.0,
+        0.0
+      ],
+      [
+        60.561599,
+        4,
+        16,
+        0.0,
+        0.0
+      ]
+    ],
+    "mission_current_live": [
+      [
+        "2026-09-21T18:26:33.332+00:00",
+        2519,
+        0
+      ],
+      [
+        "2026-09-21T18:27:27.831+00:00",
+        57019,
+        1
+      ],
+      [
+        "2026-09-21T18:27:28.835+00:00",
+        58019,
+        4
+      ],
+      [
+        "2026-09-21T18:27:33.529+00:00",
+        62719,
+        0
+      ]
+    ]
+  }
+}

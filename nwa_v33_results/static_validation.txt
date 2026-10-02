@@ -1,0 +1,16 @@
+setter waits for second observation: PASS
+setter exactly once: PASS
+predicate loss between observations: PASS
+post-set NAV race detected without retry: PASS
+external LOITER wins: PASS
+external RTL wins: PASS
+flying loss no rollback: PASS
+disarm no rollback: PASS
+nonzero rollback: PASS
+zero normalized before staging: PASS
+normalized rollback returns first NAV: PASS
+normalization failure aborts before AUTO: PASS
+direct AUTO does not select or set speed: PASS
+native later behavior not suppressed: PASS
+
+Lua parser: luaparse exit 0; Fengari Lua 5.3 load/execute exit 0.

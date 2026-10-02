@@ -1,0 +1,311 @@
+{
+  "passed": 61,
+  "total": 61,
+  "checks": [
+    {
+      "check": "T1 arbiter running and publishing status",
+      "pass": true,
+      "evidence": "{'SD_STATE': 3.0, 'SD_CD': 0.0, 'SD_REQ': 0.0, 'SD_TXOK': 1.0}"
+    },
+    {
+      "check": "T1 ARM request cleared at boot",
+      "pass": true,
+      "evidence": "SD_REQ=0.0"
+    },
+    {
+      "check": "T1 S1 released after status seen (ESP32 not ARMED)",
+      "pass": true,
+      "evidence": "S1=1100"
+    },
+    {
+      "check": "T1 S2 released",
+      "pass": true,
+      "evidence": "S2=1100"
+    },
+    {
+      "check": "T1 ESP32 not armed after boot",
+      "pass": true,
+      "evidence": "state=FAULT reason=ARM PWM INVALID/LOST"
+    },
+    {
+      "check": "T1 fault cleared by SW1 cycle -> SAFE",
+      "pass": true,
+      "evidence": "SAFE"
+    },
+    {
+      "check": "T2 SB up asserts S1 within 0.5 s",
+      "pass": true,
+      "evidence": "156 ms"
+    },
+    {
+      "check": "T2 ARMED via SB",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T2 standoff 31.5 s (+-0.3)",
+      "pass": true,
+      "evidence": "31500 ms S1->ARMED"
+    },
+    {
+      "check": "T2 Fly View panel: status 1 (STANDOFF), runtime counting 31..1",
+      "pass": true,
+      "evidence": "runtime [31, 30, 29]..[4, 3, 2] (30 distinct)"
+    },
+    {
+      "check": "T2 Fly View panel: status 2 (ARMED), runtime 0",
+      "pass": true,
+      "evidence": "(10483640, 2, 0)"
+    },
+    {
+      "check": "T2 no spoken (NOTICE or higher) Safety messages",
+      "pass": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "T2 SB down -> SAFE",
+      "pass": true,
+      "evidence": "SAFE"
+    },
+    {
+      "check": "T3 CONFIRM without REQUEST denied",
+      "pass": true,
+      "evidence": "ACK=2"
+    },
+    {
+      "check": "T3 CONFIRM after 10 s window denied",
+      "pass": true,
+      "evidence": "ACKs=0,2"
+    },
+    {
+      "check": "T3 no arm from expired request",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T3 app REQUEST+CONFIRM asserts S1",
+      "pass": true,
+      "evidence": "109 ms"
+    },
+    {
+      "check": "T3 ARMED via app",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T3 standoff 31.5 s (+-0.3)",
+      "pass": true,
+      "evidence": "31500 ms"
+    },
+    {
+      "check": "T3 QGC sees ESP32 ARMED (SD_STATE=2)",
+      "pass": true,
+      "evidence": "SD_STATE=2.0"
+    },
+    {
+      "check": "T3/T6 app DISARM while ARMED -> SAFE",
+      "pass": true,
+      "evidence": "ACK=0 SAFE"
+    },
+    {
+      "check": "T3 QGC sees SAFE (SD_STATE=0)",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "R1 wrong key blocked by Pi filter (no ACK)",
+      "pass": true,
+      "evidence": "ACK=None"
+    },
+    {
+      "check": "R2 wrong key reaching LUX directly denied",
+      "pass": true,
+      "evidence": "[(10531468, 6, 'Safety command denied: malformed'), (10532000, 6, 'Safety command denied: malformed')]"
+    },
+    {
+      "check": "R2b NaN/huge action does not stop the arbiter",
+      "pass": true,
+      "evidence": "ACK after=0 stopped=False"
+    },
+    {
+      "check": "R3 wrong sender system ID denied",
+      "pass": true,
+      "evidence": "ACK=2"
+    },
+    {
+      "check": "R1-3 nothing asserted",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "R4 QGC vehicle Arm and DO_SET_SERVO blocked by filter",
+      "pass": true,
+      "evidence": "blocked={'COMMAND_LONG': 3} leaked_acks=[]"
+    },
+    {
+      "check": "T4 app DISARM overrides SB held up",
+      "pass": true,
+      "evidence": "S1=1100 SAFE"
+    },
+    {
+      "check": "T4 stays disarmed while SB remains up",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T4 SB cycle down/up re-arms",
+      "pass": true,
+      "evidence": "STANDOFF"
+    },
+    {
+      "check": "T4 SB down clears an app ARM (last command wins)",
+      "pass": true,
+      "evidence": "SAFE"
+    },
+    {
+      "check": "T7 transmitter loss detected",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T7 S1 stays asserted, S2 released during loss",
+      "pass": true,
+      "evidence": "S1,S2=(1900, 1100)"
+    },
+    {
+      "check": "T7 standoff completes to ARMED without transmitter",
+      "pass": true,
+      "evidence": "31000 ms after S1 assert"
+    },
+    {
+      "check": "T7 deflection contact fires while TX lost",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T7 load off after contact opens",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T7 app DISARM with TX lost -> SAFE",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T7 app ARM with TX lost starts standoff (no Code 5)",
+      "pass": true,
+      "evidence": "STANDOFF"
+    },
+    {
+      "check": "T7 app ARM with TX lost reaches ARMED",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T7 TX return with SE held: S2 stays released, no fire",
+      "pass": true,
+      "evidence": "S2=1100 load=False"
+    },
+    {
+      "check": "T7 fresh SE press after return fires",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T7 app ARM survives TX return with SB up (no edge)",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T7 SB down disarms after return",
+      "pass": true,
+      "evidence": "SAFE"
+    },
+    {
+      "check": "T8 standoff completes to ARMED with app link down",
+      "pass": true,
+      "evidence": "31000 ms"
+    },
+    {
+      "check": "T8 stays ARMED with app link down",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T8 DISARM after link restored",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T10 SE in SAFE -> Code 3, no load",
+      "pass": true,
+      "evidence": "FIRE WHILE SAFE"
+    },
+    {
+      "check": "T10 Fly View panel shows 33 (FAULT code 3)",
+      "pass": true,
+      "evidence": "(10647437, 33, 0)"
+    },
+    {
+      "check": "T10 Code 3 clears after released inputs",
+      "pass": true,
+      "evidence": "SAFE"
+    },
+    {
+      "check": "T10 SE during standoff -> Code 3, no load",
+      "pass": true,
+      "evidence": "FIRE DURING STANDOFF"
+    },
+    {
+      "check": "T10 recovered by SB down",
+      "pass": true,
+      "evidence": "SAFE"
+    },
+    {
+      "check": "T10 contact in SAFE -> Code 3, no load",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T9 ARMED before reboot",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T9 ESP32 holds ARMED with no pulses",
+      "pass": true,
+      "evidence": "state=ARMED hold=True"
+    },
+    {
+      "check": "T9 contact fires during LUX outage",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "check": "T9 after reboot S1 held (boot hold) because ESP32 reports ARMED",
+      "pass": true,
+      "evidence": "SD_REQ=2.0 S1=1500"
+    },
+    {
+      "check": "T9 ESP32 still ARMED after LUX reboot",
+      "pass": true,
+      "evidence": "state=ARMED S1=1500"
+    },
+    {
+      "check": "T9 app DISARM after reboot -> SAFE",
+      "pass": true,
+      "evidence": "ACK=0 SAFE"
+    },
+    {
+      "check": "T9 SB up since boot (never seen released) does not arm",
+      "pass": true,
+      "evidence": "S1=1100 SAFE"
+    },
+    {
+      "check": "T9 fire count = only the deliberate contact test",
+      "pass": true,
+      "evidence": "3"
+    }
+  ]
+}

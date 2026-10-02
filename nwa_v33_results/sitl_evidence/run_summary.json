@@ -1,0 +1,50 @@
+[
+  {
+    "Case": "persistent_1",
+    "RunnerExit": 0,
+    "Bin": "C:\\Users\\ebach\\Documents\\ChatGPT\\10 inch Quad\\nwa_v33_results\\sitl_evidence\\persistent_1\\persistent_1.BIN",
+    "BinBytes": 7200768
+  },
+  {
+    "Case": "persistent_2",
+    "RunnerExit": 0,
+    "Bin": "C:\\Users\\ebach\\Documents\\ChatGPT\\10 inch Quad\\nwa_v33_results\\sitl_evidence\\persistent_2\\persistent_2.BIN",
+    "BinBytes": 7188480
+  },
+  {
+    "Case": "persistent_3",
+    "RunnerExit": 0,
+    "Bin": "C:\\Users\\ebach\\Documents\\ChatGPT\\10 inch Quad\\nwa_v33_results\\sitl_evidence\\persistent_3\\persistent_3.BIN",
+    "BinBytes": 7168000
+  },
+  {
+    "Case": "local",
+    "RunnerExit": 0,
+    "Bin": "C:\\Users\\ebach\\Documents\\ChatGPT\\10 inch Quad\\nwa_v33_results\\sitl_evidence\\local\\local.BIN",
+    "BinBytes": 7184384
+  },
+  {
+    "Case": "rollback0",
+    "RunnerExit": 0,
+    "Bin": "C:\\Users\\ebach\\Documents\\ChatGPT\\10 inch Quad\\nwa_v33_results\\sitl_evidence\\rollback0\\rollback0.BIN",
+    "BinBytes": 4161536
+  },
+  {
+    "Case": "rollback_nonzero",
+    "RunnerExit": 0,
+    "Bin": "C:\\Users\\ebach\\Documents\\ChatGPT\\10 inch Quad\\nwa_v33_results\\sitl_evidence\\rollback_nonzero\\rollback_nonzero.BIN",
+    "BinBytes": 4161536
+  },
+  {
+    "Case": "direct",
+    "RunnerExit": 0,
+    "Bin": "C:\\Users\\ebach\\Documents\\ChatGPT\\10 inch Quad\\nwa_v33_results\\sitl_evidence\\direct\\direct.BIN",
+    "BinBytes": 4145152
+  },
+  {
+    "Case": "external",
+    "RunnerExit": 0,
+    "Bin": "C:\\Users\\ebach\\Documents\\ChatGPT\\10 inch Quad\\nwa_v33_results\\sitl_evidence\\external\\external.BIN",
+    "BinBytes": 4300800
+  }
+]

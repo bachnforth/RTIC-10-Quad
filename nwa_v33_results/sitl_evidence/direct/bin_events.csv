@@ -1,0 +1,11 @@
+utc,boot_s,record_type,detail
+2026-09-21T18:25:28.296Z,2.459849,MSG,NWA: V3.3 loaded; Scripting1 LOW->HIGH for staged 
+2026-09-21T18:26:09.036Z,43.199380,ARM,armed=1 method=1 forced=0
+2026-09-21T18:26:09.036Z,43.199380,MODE,mode=4 reason=2
+2026-09-21T18:26:22.886Z,57.049671,MODE,mode=5 reason=2
+2026-09-21T18:26:22.906Z,57.069663,MODE,mode=3 reason=2
+2026-09-21T18:26:22.908Z,57.072162,MISE,seq=2 command=16 param1=0.0 param2=0.0
+2026-09-21T18:26:22.908Z,57.072162,MSG,Mission: 2 WP
+2026-09-21T18:26:22.928Z,57.092154,MSG,NWA: AUTO transition detected directly; no mission
+2026-09-21T18:26:25.928Z,60.091787,MODE,mode=5 reason=2
+2026-09-21T18:26:26.425Z,60.589088,ARM,armed=0 method=1 forced=1
