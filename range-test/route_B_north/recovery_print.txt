@@ -1,0 +1,9 @@
+{'ap': 'B', 'drive_m': 975, 'walk_m': 118, 'wp': 1, 'agl': 55, 'fall_s': 4, 'carry': 22, 'R5': 31, 'R10': 40, 'lum': 130, 'sd': 5}
+{'ap': 'B', 'drive_m': 975, 'walk_m': 101, 'wp': 2, 'agl': 78, 'fall_s': 5, 'carry': 24, 'R5': 36, 'R10': 48, 'lum': 74, 'sd': 28}
+{'ap': 'C', 'drive_m': 1098, 'walk_m': 91, 'wp': 3, 'agl': 100, 'fall_s': 5, 'carry': 25, 'R5': 40, 'R10': 54, 'lum': 60, 'sd': 30}
+{'ap': 'E', 'drive_m': 1480, 'walk_m': 68, 'wp': 4, 'agl': 114, 'fall_s': 6, 'carry': 26, 'R5': 42, 'R10': 58, 'lum': 63, 'sd': 30}
+{'ap': 'F', 'drive_m': 1744, 'walk_m': 65, 'wp': 5, 'agl': 131, 'fall_s': 6, 'carry': 26, 'R5': 44, 'R10': 62, 'lum': 103, 'sd': 6}
+{'ap': 'G', 'drive_m': 1929, 'walk_m': 129, 'wp': 6, 'agl': 158, 'fall_s': 7, 'carry': 27, 'R5': 48, 'R10': 68, 'lum': 58, 'sd': 29}
+{'ap': 'G', 'drive_m': 1929, 'walk_m': 288, 'wp': 7, 'agl': 180, 'fall_s': 7, 'carry': 27, 'R5': 50, 'R10': 73, 'lum': 54, 'sd': 26}
+{'ap': 'H', 'drive_m': 2930, 'walk_m': 225, 'wp': 8, 'agl': 198, 'fall_s': 8, 'carry': 28, 'R5': 52, 'R10': 76, 'lum': 53, 'sd': 25}
+polygon vertices 22

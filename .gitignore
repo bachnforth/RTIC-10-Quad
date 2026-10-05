@@ -16,3 +16,12 @@ expresslrs-tx-wifi-profile.xml
 __pycache__/
 node_modules/
 tmp/
+
+range-test/.venv/
+range-test/tilecache/
+range-test/__pycache__/
+range-test/**/tilecache/
+range-test/flight_2026-10-02/pi/
+range-test/flight_2026-10-02/phone/
+range-test/**/*.npy
+range-test/**/_page*.png

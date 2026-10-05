@@ -1,0 +1,37 @@
+# Range-test parameter changes (ArduCopter 4.7.1). Compare against your live values with Mission Planner > Config > Full Parameter Tree > Compare Params.
+# Lines starting with # are comments. Values are the RECOMMENDED values; items marked (already) match your 2026-09 snapshot.
+# --- speed (WP_SPD is m/s in 4.7.1; older docs call it WPNAV_SPEED in cm/s) ---
+WP_SPD,10
+WP_SPD_UP,2.5
+WP_SPD_DN,2.5
+WP_ACC,2.5
+RTL_SPEED_MS,10
+# --- return-to-launch ---
+RTL_ALT_M,55
+RTL_ALT_FINAL_M,0
+RTL_LOIT_TIME,5000
+RTL_CONE_SLOPE,3
+# --- geofence: altitude ceiling + circle around home ---
+FENCE_ENABLE,1
+FENCE_TYPE,3
+FENCE_ACTION,1
+FENCE_RADIUS,1700
+FENCE_ALT_MAX,215
+FENCE_MARGIN,10
+# --- battery (4S): low = 3.70 V/cell, critical = 3.50 V/cell, refuse to arm below 4.00 V/cell ---
+BATT_MONITOR,3
+BATT_VOLT_MULT,11.18
+BATT_CAPACITY,5200
+BATT_LOW_VOLT,14.8
+BATT_CRT_VOLT,14.0
+BATT_LOW_TIMER,10
+BATT_FS_LOW_ACT,2
+BATT_FS_CRT_ACT,1
+BATT_ARM_VOLT,16.0
+# --- other failsafes (already in your snapshot; listed so you can confirm) ---
+FS_THR_ENABLE,1
+FS_OPTIONS,17
+FS_GCS_ENABLE,0
+FS_EKF_ACTION,1
+FS_DR_ENABLE,2
+FS_DR_TIMEOUT,30
