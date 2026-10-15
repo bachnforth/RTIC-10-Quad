@@ -117,6 +117,11 @@ def main():
     udp.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     udp.bind(("0.0.0.0", args.udp_listen))
     udp.setblocking(False)
+    # Optional read-only fleet copy. Missing observer never blocks the pilot path.
+    mirror = None
+    if os.environ.get("CRUZA_FLEET_MIRROR", "0") == "1":
+        mirror = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        mirror.setblocking(False)
 
     parser = mav.MAVLink(None)
     parser.robust_parsing = True
@@ -133,6 +138,11 @@ def main():
         if message is not None:
             payload = message.get_msgbuf()
             if payload:
+                if mirror is not None:
+                    try:
+                        mirror.sendto(payload, ("127.0.0.1", 15612))
+                    except OSError:
+                        pass
                 udp.sendto(payload, args.udp_target)
                 if last_phone and last_phone != args.udp_target:
                     udp.sendto(payload, last_phone)

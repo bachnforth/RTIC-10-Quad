@@ -2,3 +2,4 @@
 *.bin binary
 *.png binary
 *.jpg binary
+pi-video/*.sh text eol=lf
